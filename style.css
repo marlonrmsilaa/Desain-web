@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-radius: border-box;
+}
+
+.text1 {
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+#hide {
+    width: 70px;
+}
+
+#show {
+    width: 70px;
+}
+
+
+/* .button {
+    margin-left: 10em;
+}
+
+.p {
+    margin-left: 1em;
+}
+
+#p2 {
+    padding-top: 5px;
+} */
+
+
+
+
+/* contact */
+
+.row {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.get {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height : 180px;
+    width: 80px;
+}
+
+
+h5 {
+    text-align: center;
+}
+
+.footer-contact {
+    background-color: rgb(47, 35, 52);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* review */
+
+.review-text {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.review-content1 {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 70px;
+    width: 90%;
+    height: 130px;
+    background-color: rgb(54, 38, 235);
+    color: white;
+}
+
+.review-content2 {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 70px;
+    width: 90%;
+    height: 130px;
+    background-color: rgb(54, 38, 235);
+    color: white;
+}
+
+.review-content3 {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 70px;
+    width: 90%;
+    height: 130px;
+    background-color: rgb(54, 38, 235);
+    color: white;
+}
+
+.footer-review {
+    background-color: rgb(47, 35, 52);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* lowongan */
+
+.container-lowongan {
+    display: flex;
+    margin-top: 30px;
+}
+
+.lowongan-content1 {
+    background-color: rgb(54, 38, 235);
+    color: white;
+    width: 40%;
+    margin: 30px 0 0 80px;
+    padding: 10px
+
+}
+
+.lowongan-content2 {
+    background-color: rgb(54, 38, 235);
+    color: white;
+    width: 40%;
+    height: 250px;
+    margin: 30px 0 0 90px;
+    padding: 50px;
+    text-align: center;
+}
+
+.button-lowongan {
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.footer-lowongan { 
+    background-color: rgb(47, 35, 52);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
