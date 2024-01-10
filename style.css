@@ -7,7 +7,6 @@
 .text1 {
     padding: 50px;
     margin: 30px;
-    text-align: center;
 }
 
 #hide {
@@ -18,9 +17,13 @@
     width: 70px;
 }
 
+.gambar-content {
+    margin-left: 20em;
+    margin-bottom: 50px;
+}
 
-/* .button {
-    margin-left: 10em;
+.content {
+    margin-left: 15px;
 }
 
 .p {
@@ -29,9 +32,16 @@
 
 #p2 {
     padding-top: 5px;
-} */
+}
 
+.nav-item:hover {
+    text-decoration: underline;
+    color: white;
+}
 
+.button {
+    margin-left: 60%;
+}
 
 
 /* contact */
@@ -90,8 +100,7 @@ h5 {
     margin-left: 70px;
     width: 90%;
     height: 130px;
-    background-color: rgb(54, 38, 235);
-    color: white;
+    color: black;
 }
 
 .review-content2 {
@@ -100,8 +109,7 @@ h5 {
     margin-left: 70px;
     width: 90%;
     height: 130px;
-    background-color: rgb(54, 38, 235);
-    color: white;
+    color: black;
 }
 
 .review-content3 {
@@ -110,41 +118,39 @@ h5 {
     margin-left: 70px;
     width: 90%;
     height: 130px;
-    background-color: rgb(54, 38, 235);
-    color: white;
+    color: black;
 }
 
 .footer-review {
     background-color: rgb(47, 35, 52);
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
     padding: 10px;
 }
 
-/* lowongan */
+/* lamar */
 
 .container-lowongan {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .lowongan-content1 {
-    background-color: rgb(54, 38, 235);
-    color: white;
+    color: black;
     width: 40%;
     margin: 30px 0 0 80px;
+    height: 20em;
     padding: 10px
 
 }
 
 .lowongan-content2 {
-    background-color: rgb(54, 38, 235);
-    color: white;
+    color: black;
     width: 40%;
     height: 250px;
     margin: 30px 0 0 90px;
-    padding: 50px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -158,7 +164,8 @@ h5 {
     background-color: rgb(47, 35, 52);
     color: white;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 110px;
     padding: 10px;
 }
+
 

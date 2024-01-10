@@ -12,16 +12,16 @@
         <script>
             $(document).ready(function () {
                 $("#hide").click(function () {
-                    $("#halo").hide();
+                    $(".gambar-content").hide();
                 });
                 $("#show").click(function () {
-                    $("#halo").show();
+                    $(".gambar-content").show();
                 });
             });
         </script>
     </head>
 </head>
-<body class="bg-primary bg-opacity-25">
+<body style= "background: linear-gradient(to bottom left, rgb(70, 0, 232), white)">
     <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container">
             <a class="navbar-brand">Cari.job</a>
@@ -41,26 +41,39 @@
                         <a class="nav-link" href="review.html">Review</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="lowongan.html">Cari lowongan</a>
+                        <a class="nav-link" href="lamar.html">Cari lowongan</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="text1">
-        <button id="hide">hide</button>
-        <button id="show">show</button>
-        <p id="halo">halo, selamat datang</p>
-        <div class="content">
-            <h1>temukan <br> pekerjaan <br> impianmu</h1>
-            <p>bekerjalah di tempat <br> yang membuatmu <br> nyaman </p>
-        </div>
+<div class="text1">
+    <div class="button">
+        <button class="btn btn-primary m-2 border-2 rounded-2" id="hide">hide</button>
+        <button class="btn btn-primary m-2 border-2 rounded-2" id="show">show</button>
+    </div>
+    <div class="d-flex align-items-center">
         <div>
-            <button type="button" class="btn btn-primary m-3 border-2 rounded-2">Daftar</button>
-            <button type="button" class="btn btn-primary border-2 rounded-2">Login</button>
-            <p class="p">daftar sekarang, gratis</p>
+            <p id="halo">halo, selamat datang</p>
+            <div class="content">
+                <h1>temukan <br> pekerjaan <br> impianmu</h1>
+            </div>
+            <p>bekerjalah di tempat <br> yang membuatmu <br> nyaman </p>
+            <div>
+                <a href="daftar.html"><button type="button" class="btn btn-primary m-3 border-2 rounded-2">Daftar</button></a>
+                <a href="login.html"><button type="button" class="btn btn-primary border-2 rounded-2">Login</button></a>
+                <p class="p">daftar sekarang, gratis</p>
+            </div>
+        </div>
+        <div class="gambar-content">
+            <img src="./img/Flash_perspective_matte_s.png" alt="">
+            <img src="./img/Settings_perspective_matte_s 1.png" alt="">
+            <img src="./img/Trophy_perspective_matte_s.png" alt="">
+            <img src="./img/Clock_perspective_matte_s 1.png" alt="">
         </div>
     </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
